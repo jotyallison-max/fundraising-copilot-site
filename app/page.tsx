@@ -43,8 +43,8 @@ export default function Page(){
      <button onClick={submitLead} className="rounded-2xl bg-slate-900 text-white px-4 py-2 flex items-center"><Mail className="mr-2" size={16}/> Request Demo</button>
      {submitted && (<div className="flex items-center gap-2 text-emerald-600 text-sm"><CheckCircle2 size={16}/> Thanks! We’ll be in touch soon.</div>)}
     </div></div>
-   <div className="bg-white rounded-3xl shadow-lg border p-6"><h3 className="font-semibold">Implementation in days, not months</h3>
-    <ul className="mt-3 text-slate-700 space-y-2 list-disc list-inside"><li>Clone Airtable base + Interface</li><li>Connect Zapier flows (scoring, content)</li><li>Point dashboard at your base</li><li>Add domain & email auth (SPF/DKIM)</li></ul></div>
+   <div className="bg-white rounded-3xl shadow-lg border p-6"><h3 className="font-semibold">Investment into Speed & Simplicity for Growing Teams</h3>
+    <ul className="mt-3 text-slate-700 space-y-2 list-disc list-inside"><li>Get started in days, not months</li><li>No IT headaches</li><li>Point dashboard at your base</li><li>Add domain & email auth (SPF/DKIM)</li></ul></div>
   </div></section>
   <footer className="border-t"><div className="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
    <span>© {new Date().getFullYear()} Fundraising Co‑Pilot</span>
