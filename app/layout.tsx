@@ -1,7 +1,7 @@
 
 export const metadata = {
-  title: "Fundraising Co‑Pilot",
-  description: "Raise more with an AI co‑pilot for development & grants."
+  title: "DonorAxis",
+  description: "We believe the future of fundraising belongs to those who combine data with heart."
 };
 import "./globals.css";
 import React from "react";
