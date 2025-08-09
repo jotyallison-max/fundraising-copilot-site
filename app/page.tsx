@@ -11,12 +11,12 @@ export default function Page(){
  const submitLead=async()=>{ setSubmitted(true); };
  return (<div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
   <header className="sticky top-0 z-50 backdrop-blur bg-white/60 border-b"><div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-   <div className="flex items-center gap-2"><div className="h-9 w-9 rounded-2xl bg-slate-900 text-white grid place-items-center"><Sparkles size={18}/></div><span className="font-semibold">Fundraising Co‑Pilot</span></div>
+   <div className="flex items-center gap-2"><div className="h-9 w-9 rounded-2xl bg-slate-900 text-white grid place-items-center"><Sparkles size={18}/></div><span className="font-semibold">DonorAxis</span></div>
    <nav className="hidden md:flex items-center gap-6 text-sm"><a href="#features" className="hover:text-slate-600">Features</a><a href="#platform" className="hover:text-slate-600">Platform</a><a href="#pricing" className="hover:text-slate-600">Pricing</a><a href="#contact" className="hover:text-slate-600">Contact</a></nav>
    <button className="rounded-2xl bg-slate-900 text-white px-4 py-2">Get a Demo</button></div></header>
   <section className="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-2 gap-10 items-center">
    <div>
-    <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:.5}} className="text-4xl md:text-5xl font-extrabold leading-tight">Raise more with an AI co‑pilot for development & grants</motion.h1>
+    <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:.5}} className="text-4xl md:text-5xl font-extrabold leading-tight">The future of fundraising belongs to those who combine data with heart</motion.h1>
     <p className="mt-4 text-slate-600 max-w-prose">Score donors, personalize outreach, draft grants, and forecast revenue — without hiring a data team. Plug into your CRM and start in days.</p>
     <div className="mt-6 flex gap-3"><button className="rounded-2xl bg-slate-900 text-white px-4 py-2 flex items-center">Start Pilot <ArrowRight className="ml-2" size={16}/></button><button className="rounded-2xl border px-4 py-2">See Live Demo</button></div>
     <div className="mt-4 text-xs text-slate-500 flex items-center gap-2"><ShieldCheck size={14}/> SOC2-ready vendors • GDPR/CCPA alignment • Least‑privilege access</div>
@@ -27,12 +27,6 @@ export default function Page(){
    <Feature icon={<BarChart3/>} title="Donor Intelligence" desc="RFA scoring, segments, next best action — refreshed nightly."/>
    <Feature icon={<Users/>} title="Personalized Outreach" desc="AI drafts 3‑touch sequences, thank‑yous, and call scripts that match donor affinities."/>
    <Feature icon={<Zap/>} title="Grant Co‑Writer" desc="Turn program notes into tailored need statements, budgets, and outcomes in minutes."/>
-  </div></section>
-  <section id="platform" className="max-w-6xl mx-auto px-4 py-10"><div className="grid md:grid-cols-2 gap-6 items-start">
-   <div className="rounded-2xl border p-6 bg-white"><h3 className="text-xl font-semibold">No‑code backbone</h3>
-    <ul className="mt-3 space-y-2 text-slate-600 list-disc list-inside"><li>Airtable base for donors, gifts, interactions</li><li>Zapier/Make flows for scoring & content</li><li>Mailchimp/HubSpot for deliverability</li><li>Looker Studio or Airtable Interfaces for dashboards</li></ul></div>
-   <div className="rounded-2xl border p-6 bg-slate-50"><h4 className="font-medium">Example flow</h4>
-    <ol className="text-sm mt-2 space-y-2 text-slate-700 list-decimal list-inside"><li>New gift logged → update R/F/A</li><li>AI assigns engagement score + segment</li><li>Create 3‑email draft sequence</li><li>Owner review → send → track reply</li></ol></div>
   </div></section>
   <section id="pricing" className="max-w-6xl mx-auto px-4 py-10"><h2 className="text-2xl font-bold mb-6">Simple pricing</h2>
    <div className="grid md:grid-cols-3 gap-5">
