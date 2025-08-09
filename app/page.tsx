@@ -44,7 +44,7 @@ export default function Page(){
      {submitted && (<div className="flex items-center gap-2 text-emerald-600 text-sm"><CheckCircle2 size={16}/> Thanks! We’ll be in touch soon.</div>)}
     </div></div>
    <div className="bg-white rounded-3xl shadow-lg border p-6"><h3 className="font-semibold">Investment into Speed & Simplicity for Growing Teams</h3>
-    <ul className="mt-3 text-slate-700 space-y-2 list-disc list-inside"><li>Get started in days, not months</li><li>No IT headaches</li><li>Point dashboard at your base</li><li>Add domain & email auth (SPF/DKIM)</li></ul></div>
+    <ul className="mt-3 text-slate-700 space-y-2 list-disc list-inside"><li>Get started in days, not months</li><li>No IT headaches</li><li>Turn on your live donor insights</li><li>Add domain & email auth (SPF/DKIM)</li></ul></div>
   </div></section>
   <footer className="border-t"><div className="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
    <span>© {new Date().getFullYear()} Fundraising Co‑Pilot</span>
